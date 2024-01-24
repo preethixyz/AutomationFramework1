@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="TestRunner2(failed)">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
     <classes>
-      <class name="Vtiger.Practice.BCreateOrgwithIndustryUsingDDTTest">
+      <class name="Vtiger.Practice.PContactsTest">
         <methods>
-          <include name="acConfig"/>
-          <include name="bcConfig"/>
-          <include name="bmconfig"/>
-          <include name="amConfig"/>
-          <include name="bsConfig"/>
-          <include name="sample"/>
-          <include name="asConfig"/>
+          <include name="contactsTest"/>
         </methods>
-      </class> <!-- Vtiger.Practice.BCreateOrgwithIndustryUsingDDTTest -->
+      </class> <!-- Vtiger.Practice.PContactsTest -->
     </classes>
-  </test> <!-- TestRunner2(failed) -->
-  <test thread-count="5" parallel="tests" name="TestRunner1(failed)">
-    <classes>
-      <class name="Vtiger.Practice.BCreateOrgwithIndustryUsingDDTTest">
-        <methods>
-          <include name="acConfig"/>
-          <include name="bcConfig"/>
-          <include name="bmconfig"/>
-          <include name="amConfig"/>
-          <include name="bsConfig"/>
-          <include name="sample"/>
-          <include name="asConfig"/>
-        </methods>
-      </class> <!-- Vtiger.Practice.BCreateOrgwithIndustryUsingDDTTest -->
-    </classes>
-  </test> <!-- TestRunner1(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
